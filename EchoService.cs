@@ -10,7 +10,7 @@ namespace PseudoRMI_EchoServer
     {
         public string Echo(string input)
         {
-            Console.WriteLine($"Result: {input}");
+            Console.WriteLine($"Server result: {input}");
             return input;
         }
     }
